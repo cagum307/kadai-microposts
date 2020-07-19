@@ -9,6 +9,9 @@
       </div>
     </div>
     <%= render 'relationships/follow_button', user: @user %>
+    <%= link_to 'Favorite List', likes_user_path(@user), class: 'btn btn-primary btn-block mt-3' %>
+    
+    
   </aside>
   <div class="col-sm-8">
     <ul class="nav nav-tabs nav-justified mb-3">
